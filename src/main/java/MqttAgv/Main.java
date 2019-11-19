@@ -19,16 +19,17 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        try {
+        /*try {
             ServerMQTT sqMQTT = new ServerMQTT();
             sqMQTT.connect();
             sqMQTT.subscribe("kaiguan", 0);
             sqMQTT.publish("kaiguan", "hellooooo");
-            dfdddddfdddffd
         } catch (MqttException ex) {
             System.out.println("com.cc.mqtt.ServerMQTT.main()");
             ex.printStackTrace();
-        }
+        }*/
+         ServerMQTT sqMQTT = new ServerMQTT();
+         sqMQTT.tests();
     }
     
 }
